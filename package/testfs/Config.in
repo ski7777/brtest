@@ -1,0 +1,9 @@
+config BR2_TESTFS
+	bool "super test fs"
+
+if BR2_TESTFS
+
+config BR2_TESTFS_OPT
+	bool "super test fs option"
+
+endif
