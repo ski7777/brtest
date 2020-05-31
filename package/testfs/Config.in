@@ -1,9 +1,9 @@
-config BR2_TESTFS
+config BR2_TARGET_ROOTFS_TESTFS
 	bool "super test fs"
 
-if BR2_TESTFS
+if BR2_TARGET_ROOTFS_TESTFS
 
-config BR2_TESTFS_OPT
+config BR2_TARGET_ROOTFS_TESTFS_OPT
 	bool "super test fs option"
 
 endif

@@ -1,4 +1,4 @@
-define TESTFS_CMD
+define ROOTFS_TESTFS_CMD
 	echo $(TARGET_DIR)
 	echo $(@)
 	pwd
