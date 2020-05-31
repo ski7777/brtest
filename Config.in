@@ -1,1 +1,1 @@
-source "$BR2_EXTERNAL_TEST_PATH/package/testfs/Config.in"
+source "$BR2_EXTERNAL_TEST_PATH/fs/testfs/Config.in"
